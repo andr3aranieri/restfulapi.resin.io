@@ -31,4 +31,4 @@ CMD ["python", "/app/manage.py", "makemigrations", "restfulapi"]
 CMD ["python", "/app/manage.py", "migrate"]
 
 # run python script when container lands on device
-CMD ["python", "/app/manage.py", "runserver 0.0.0.0:80"]
+CMD ["python", "/app/manage.py", "runserver", "0.0.0.0:80"]
