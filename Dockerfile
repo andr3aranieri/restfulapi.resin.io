@@ -2,7 +2,7 @@
 FROM resin/raspberrypi-python
 
 # File Author / Maintainer
-MAINTAINER Andrea Ranieri
+MAINTAINER andrea.ranieri@protonmail.com
 
 # Enable systemd
 ENV INITSYSTEM on
