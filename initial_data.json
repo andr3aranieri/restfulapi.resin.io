@@ -1,0 +1,54 @@
+[
+  {
+    "model": "restfulapi.student",
+    "pk": 1,
+    "fields": {
+      "firstname": "John",
+      "lastname": "Lennon",
+      "studentid": "000001",
+      "tel": "3330000001",
+      "email": "mail1@mail.it",
+      "github": "github.com/000001",
+      "web": "www.student1.com"
+    }
+  },
+ {
+    "model": "restfulapi.student",
+    "pk": 2,
+    "fields": {
+      "firstname": "Mario",
+      "lastname": "Rossi",
+      "studentid": "000002",
+      "tel": "3330000002",
+      "email": "mail2@mail.it",
+      "github": "github.com/000002",
+      "web": "www.student2.com"
+    }
+  },
+ {
+    "model": "restfulapi.student",
+    "pk": 3,
+    "fields": {
+      "firstname": "Giuseppe",
+      "lastname": "Verdi",
+      "studentid": "000003",
+      "tel": "3330000003",
+      "email": "mail3@mail.it",
+      "github": "github.com/000003",
+      "web": "www.student3.com"
+    }
+  },
+ {
+    "model": "restfulapi.student",
+    "pk": 4,
+    "fields": {
+      "firstname": "Michael",
+      "lastname": "Jordan",
+      "studentid": "000004",
+      "tel": "3330000004",
+      "email": "mail4@mail.it",
+      "github": "github.com/000004",
+      "web": "www.student4.com"
+    }
+  }
+]

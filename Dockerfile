@@ -20,5 +20,7 @@ RUN pip install -r /requirements.txt
 CMD ["python", "/app/manage.py", "makemigrations", "restfulapi"]
 # execute sql scripts to make changes on data store
 CMD ["python", "/app/manage.py", "migrate"]
+# load initial data
+CMD ["python", "/app/manage.py", "loaddata", "initial_data.json"]
 # run Django webserver
 CMD ["python", "/app/manage.py", "runserver", "0.0.0.0:80"]
