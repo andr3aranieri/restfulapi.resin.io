@@ -25,10 +25,10 @@ COPY ./requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
 
 # create data store edit scripts
-CMD ["python", "/app/web/manage.py", "makemigrations", "restfulapi"]
+CMD ["python", "/app/manage.py", "makemigrations", "restfulapi"]
 
 # execute sql scripts to make changes on data store
-CMD ["python", "/app/web/manage.py", "migrate"]
+CMD ["python", "/app/manage.py", "migrate"]
 
 # run python script when container lands on device
-CMD ["python", "/app/web/manage.py", "runserver 0.0.0.0:80"]
+CMD ["python", "/app/manage.py", "runserver 0.0.0.0:80"]
