@@ -30,5 +30,5 @@ CMD ["python", "/app/manage.py", "makemigrations", "restfulapi"]
 # execute sql scripts to make changes on data store
 CMD ["python", "/app/manage.py", "migrate"]
 
-# run python script when container lands on device
+# run Django webserver
 CMD ["python", "/app/manage.py", "runserver", "0.0.0.0:80"]
