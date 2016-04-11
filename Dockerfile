@@ -25,7 +25,7 @@ COPY ./requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
 
 # create data store edit scripts
-CMD ["python", "/app/web/manage.py", "makemigrations"]
+CMD ["python", "/app/web/manage.py", "makemigrations", "restfulapi"]
 
 # execute sql scripts to make changes on data store
 CMD ["python", "/app/web/manage.py", "migrate"]
