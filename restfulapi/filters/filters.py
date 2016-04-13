@@ -2,7 +2,7 @@
 """
 Created on Fri Mar 18 14:51:18 2016
 
-@author: isis
+@author: andrea.ranieri@protonmail.com
 """
 
 import django_filters
