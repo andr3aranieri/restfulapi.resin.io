@@ -2,7 +2,7 @@
 """
 Created on Thu Mar 17 17:01:31 2016
 
-@author: isis
+@author: andrea.ranieri@protonmail.com
 """
 
 from django.conf.urls import patterns, include, url
