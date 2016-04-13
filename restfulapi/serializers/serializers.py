@@ -2,7 +2,7 @@
 """
 Created on Fri Mar 18 11:30:16 2016
 
-@author: isis
+@author: andrea.ranieri@protonmail.com
 """
 from rest_framework import serializers
 from restfulapi.models import Student
