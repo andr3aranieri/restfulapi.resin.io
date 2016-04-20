@@ -11,7 +11,7 @@ from .models import Student
 from .filters.filters import StudentFilter
 
 def index(request):
-    return HttpResponse("<h1>Django RESTfulAPI deployed with resin.io. I'm now starting my presentation!</h1>")
+    return HttpResponse("<h1>Django RESTfulAPI deployed with resin.io. Thanks for your attention!</h1>")
 
 class StudentsList(generics.ListCreateAPIView):
     queryset = Student.objects.all()
